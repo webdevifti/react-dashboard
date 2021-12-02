@@ -1,0 +1,31 @@
+.sidebar{
+    min-width: var(--sidebar-width);
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+}
+.sidebar-logo{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar-logo img{
+    height: 45px;
+}
+.sidebar-navigation{
+    padding: 0px 20px;
+}
+.sidebar-menu a{
+    padding: 10px;
+    display: block;
+}
+.sidebar-menu:hover{
+    background-color: var(--second-bg);
+}
+.sidebar-menu span{
+    margin-right: 20px;
+}
