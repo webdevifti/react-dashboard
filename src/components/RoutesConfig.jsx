@@ -7,7 +7,7 @@ const RoutesConfig = () => {
     return (
         
         <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/react-dashboard" element={<Dashboard />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="*" element={<PageNotFound />} />
         </Routes>
